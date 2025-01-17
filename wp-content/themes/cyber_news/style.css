@@ -1,0 +1,985 @@
+/*
+Theme Name: Cyber News Indonesia
+Theme URI: https://cybernewsind.com
+Author: FTRShop -Faozaro-Batee
+Author URI: wa.me/6281999263536
+Description: Tema khusus untuk portal berita Cyber News Indonesia
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cybernews
+*/
+/* Header Styles */
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-top {
+    padding: 15px 0;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: 0 0 400px;
+}
+
+.logo img {
+    max-height: 77px;
+    width: auto;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-field {
+    border: none;
+    padding: 8px 12px;
+    width: 200px;
+}
+
+.search-submit {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.social-icons .facebook { background: #3b5998; }
+.social-icons .twitter { background: #1da1f2; }
+.social-icons .instagram { background: #e1306c; }
+.social-icons .youtube { background: #ff0000; }
+
+/* Navigation Styles */
+.main-navigation {
+    background: linear-gradient(90deg, rgba(33,64,154,1) 0%, rgba(1,123,189,1) 100%);
+}
+
+.menu-utama {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+}
+
+.menu-utama > li {
+    position: relative;
+}
+
+.menu-utama > li:hover > a {
+    background: rgba(255,255,255,0.1);
+}
+
+.menu-utama > li > a {
+    color: #fff;
+    padding: 0 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+	white-space: nowrap; /* Mencegah text wrap */
+    opacity: 1 !important; /* Memastikan text selalu terlihat */
+}
+
+.menu-utama a {
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-utama .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--primary-color);
+    min-width: 200px;
+    display: none;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-utama li:hover > .sub-menu {
+    display: block;
+}
+
+/* Di style.css */
+.menu-utama > li > a {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menu-utama .sub-menu {
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    display: none;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-utama .sub-menu li {
+    display: block;
+    width: 100%;
+}
+
+
+.menu-utama .sub-menu a {
+    color: #333;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-utama .sub-menu a:hover {
+    background: #21409A;
+    color: #fff;
+}
+
+.menu-utama li:hover > .sub-menu {
+    display: block;
+}
+
+/* Tambahkan ikon untuk menu yang memiliki submenu */
+.menu-utama > li.menu-item-has-children > a:after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+/* Layout */
+#content-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    gap: 30px;
+}
+
+#content-left-wrap {
+    flex: 1;
+    min-width: 0; /* Penting untuk mencegah overflow */
+}
+
+#sidebar-right {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+/* Untuk area iklan kiri-kanan */
+.banner-left,
+.banner-right {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160px;
+}
+
+.banner-left {
+    left: calc((100% - 1200px) / 2 - 180px);
+}
+
+.banner-right {
+    right: calc((100% - 1200px) / 2 - 180px);
+}
+
+@media (max-width: 1540px) {
+    .banner-left,
+    .banner-right {
+        display: none;
+    }
+}
+
+/* Desktop Slider */
+.desktop-slider {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .desktop-slider {
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
+.headline-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: #fff;
+}
+
+/* Mobile Slider */
+.mobile-slider {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .mobile-slider {
+        display: none;
+    }
+}
+
+/* Swiper Slider */
+.headline-swiper {
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: #fff;
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* Ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrapper {
+    margin-bottom: 30px;
+}
+
+/* Floating Video Styles */
+.video-wrapper.floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    z-index: 999;
+    background: #000;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.video-wrapper.floating .responsive-video {
+    padding-bottom: 56.25%;
+}
+
+.close-floating-video {
+    display: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.video-wrapper.floating .close-floating-video {
+    display: block;
+}
+
+/* Media Query untuk Responsif */
+@media (max-width: 768px) {
+    .video-wrapper.floating {
+        width: 200px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+/* Banner Parallax Mobile */
+#sidebar-banner-mobile-top-header-parallax {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,0.9);
+    display: none;
+}
+
+.sidebar-banner-mobile-top-header-parallax-wrap {
+    position: relative;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.scroll-to-continue {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* Banner Floating */
+.floating-banner {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 998;
+    max-width: 300px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.floating-banner .close-button {
+    top: -10px;
+    right: -10px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    #sidebar-banner-mobile-top-header-parallax {
+        display: none !important;
+    }
+}
+
+/* Berita Pilihan */
+#berita-pilihan {
+    margin: 30px 0;
+}
+
+.judul-berita-pilihan {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.berita-pilihan-box {
+    padding: 15px;
+}
+
+.berita-pilihan-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.kategori-berita-pilihan {
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.berita-pilihan-box h2 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.berita-pilihan-box h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Berita Rekomendasi */
+#berita-rekomendasi {
+    margin: 30px 0;
+}
+
+.judul-berita-rekomendasi {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.berita-rekomendasi-box {
+    position: relative;
+    height: 400px;
+}
+
+.berita-rekomendasi-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-berita-rekomendasi {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: #fff;
+}
+
+.kategori-berita-rekomendasi {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.text-berita-rekomendasi h2 {
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.text-berita-rekomendasi h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Pagination */
+.pagination-wrap {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.nav-links {
+    display: inline-block;
+}
+
+.nav-links .page-numbers {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-links .current {
+    background: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+.nav-links a:hover {
+    background: #f5f5f5;
+}
+
+/* Popular Posts Widget */
+.popular-posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.popular-posts-list li {
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.popular-posts-list li:last-child {
+    border-bottom: none;
+}
+
+.popular-post-thumbnail {
+    flex: 0 0 80px;
+    margin-right: 15px;
+}
+
+.popular-post-thumbnail img {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+
+.popular-post-content h3 {
+    font-size: 14px;
+    margin: 0 0 5px;
+    line-height: 1.4;
+}
+
+.popular-post-content h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Running Text */
+.marquee-wrap {
+    background: #f5f5f5;
+    padding: 10px 0;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.marquee {
+    white-space: nowrap;
+    position: relative;
+    animation: marquee 30s linear infinite;
+}
+
+.marquee-content {
+    display: inline-block;
+}
+
+.marquee a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    margin: 0 30px;
+    position: relative;
+}
+
+.marquee a:after {
+    content: '•';
+    position: absolute;
+    right: -20px;
+    color: var(--primary-color);
+}
+
+.marquee a:last-child:after {
+    display: none;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Pause animation on hover */
+.marquee-wrap:hover .marquee {
+    animation-play-state: paused;
+}
+
+/* Share Buttons */
+.share-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.share-buttons button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.share-buttons i {
+    font-size: 16px;
+}
+
+.copy-url {
+    background: #333;
+    color: #fff;
+}
+
+.share-facebook {
+    background: #1877f2;
+    color: #fff;
+}
+
+.share-twitter {
+    background: #1da1f2;
+    color: #fff;
+}
+
+.share-whatsapp {
+    background: #25d366;
+    color: #fff;
+}
+
+/* Banner Floating */
+.banner-floating {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.banner-floating .close-banner {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+/* Left and Right Floating Banners */
+.banner-left,
+.banner-right {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 998;
+}
+
+.banner-left {
+    left: 0;
+}
+
+.banner-right {
+    right: 0;
+}
+
+@media (max-width: 1200px) {
+    .banner-left,
+    .banner-right {
+        display: none;
+    }
+}
+
+/* Photo Caption Toggle */
+.wp-caption {
+    position: relative;
+    max-width: 100%;
+}
+
+.caption-toggle {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.7);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.caption-toggle:hover,
+.caption-toggle.active {
+    background: var(--primary-color);
+}
+
+.wp-caption-text {
+    margin: 10px 0 0;
+    padding: 10px;
+    background: #f5f5f5;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #666;
+    border-radius: 4px;
+}
+
+/* Banner Style */
+.banner-container {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.banner-left,
+.banner-right {
+    position: absolute;
+    top: 0;
+    width: 160px;
+}
+
+.banner-sticky {
+    position: fixed;
+    top: 100px;
+}
+
+.banner-left {
+    left: 0;
+}
+
+.banner-right {
+    right: 0;
+}
+
+.banner-left img,
+.banner-right img {
+    width: 100%;
+    height: auto;
+}
+
+/* Banner in content */
+.content-banner {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.post-banner {
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Header Mobile */
+    .header-wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .logo {
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .right-header {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .search-form {
+        width: 100%;
+    }
+    
+    .search-field {
+        width: 100%;
+    }
+    
+    /* Navigation Mobile */
+    .menu-utama {
+        display: none; /* akan diganti dengan hamburger menu */
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .menu-utama.active {
+        display: flex;
+    }
+    
+    .menu-utama > li {
+        width: 100%;
+    }
+    
+    .menu-utama .sub-menu {
+        position: static;
+        width: 100%;
+        background: rgba(0,0,0,0.1);
+    }
+    
+    /* Hamburger Button */
+.hamburger-button {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.hamburger-button span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.hamburger-button span:nth-child(1) { top: 0px; }
+.hamburger-button span:nth-child(2) { top: 10px; }
+.hamburger-button span:nth-child(3) { top: 20px; }
+
+.hamburger-button.active span:nth-child(1) {
+    top: 10px;
+    transform: rotate(45deg);
+}
+
+.hamburger-button.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-button.active span:nth-child(3) {
+    top: 10px;
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 767px) {
+    .hamburger-button {
+        display: block;
+    }
+
+    .menu-utama {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--primary-color);
+        padding: 10px 0;
+    }
+
+    .menu-utama > li {
+        display: block;
+        width: 100%;
+    }
+
+    .menu-utama .sub-menu {
+        position: static;
+        width: 100%;
+        display: none;
+    }
+
+    .menu-utama .menu-item-has-children.active > .sub-menu {
+        display: block;
+    }
+}
+.d-none { display: none !important; }
+.d-block { display: block !important; }
+
+@media (min-width: 768px) {
+    .d-md-none { display: none !important; }
+    .d-md-block { display: block !important; }
+}
+    
+    /* Content Mobile */
+    #content-wrap {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    #content-left-wrap,
+    #sidebar-right {
+        width: 100%;
+    }
+    
+    /* News Feed Mobile */
+    .news-feed-list {
+        flex-direction: column;
+    }
+    
+    .news-feed-image {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    #content-wrap {
+        padding: 20px;
+    }
+    
+    .banner-left,
+    .banner-right {
+        display: none;
+    }
+}

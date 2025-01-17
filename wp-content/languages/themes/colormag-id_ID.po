@@ -1,0 +1,779 @@
+# Translation of Themes - ColorMag in Indonesian
+# This file is distributed under the same license as the Themes - ColorMag package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-11 23:05:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: id\n"
+"Project-Id-Version: Themes - ColorMag\n"
+
+#. Theme Name of the theme
+#: inc/hooks/footer.php:245
+#, gp-priority: high
+msgid "ColorMag"
+msgstr "ColorMag"
+
+#: inc/customizer/options/content/class-colormag-customize-page-options.php:41
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:44
+msgid "Featured Image"
+msgstr "Gambar Unggulan"
+
+#: inc/elementor/widgets/class-colormag-elementor-widget-base.php:128
+msgid "Text Color:"
+msgstr "Warna Teks:"
+
+#: inc/elementor/widgets/class-colormag-elementor-widget-base.php:111
+msgid "Color:"
+msgstr "Warna:"
+
+#: inc/customizer/options/header/class-colormag-customize-header-top-bar-options.php:83
+msgid "From WordPress Date Setting"
+msgstr "Dari Pengaturan Tanggal WordPress"
+
+#: inc/customizer/options/header/class-colormag-customize-header-top-bar-options.php:82
+msgid "Theme Default Setting"
+msgstr "Pengaturan Bawaan Tema"
+
+#: inc/customizer/options/header/class-colormag-customize-header-top-bar-options.php:78
+msgid "Date in header display type:"
+msgstr "Jenis tampilan tanggal pada header:"
+
+#: inc/customizer/options/header/class-colormag-customize-primary-menu-options.php:134
+msgid "Responsive Menu Style"
+msgstr "Gaya Menu Responsif"
+
+#: inc/widgets/widgets.php:132
+msgid "Content Bottom Section"
+msgstr "Bagian Bawah Konten"
+
+#: inc/widgets/widgets.php:171
+msgid "Shows widgets just above the footer, suitable for TG: 728x90 Advertisement widget."
+msgstr "Menampilkan widget tepat diatas footer, cocok untuk TG: widget Iklan 728x90."
+
+#: inc/widgets/abstract-colormag-widget.php:359
+msgid "Choose an image"
+msgstr "Pilih gambar"
+
+#: inc/widgets/abstract-colormag-widget.php:360
+msgid "Use image"
+msgstr "Gunakan gambar"
+
+#: inc/widgets/abstract-colormag-widget.php:363
+msgid "Select an Image"
+msgstr "Pilih gambar"
+
+#: inc/admin/class-colormag-notice.php:59
+#: inc/admin/class-colormag-notice.php:78
+#: inc/admin/class-colormag-theme-review-notice.php:154
+#: inc/admin/class-colormag-theme-review-notice.php:172
+#: inc/admin/class-colormag-welcome-notice.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Gagal. Silahkan muat ulang laman dan coba lagi."
+
+#: inc/admin/class-colormag-notice.php:63
+#: inc/admin/class-colormag-notice.php:82
+#: inc/admin/class-colormag-welcome-notice.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Aneh huh?"
+
+#: inc/admin/class-colormag-dashboard.php:114
+msgid "Got theme support question?"
+msgstr "Ada pertanyaan tentang tema?"
+
+#: inc/customizer/class-colormag-customizer-register-sections-panels.php:250
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:44
+msgid "Social Icons"
+msgstr "Ikon Sosial"
+
+#. Translators: %s: Search query.
+#: search.php:34
+msgid "Search Results for: %s"
+msgstr "Hasil Pencarian untuk: %s"
+
+#. Template Name of the theme
+msgid "Contact Page Template"
+msgstr "Template Laman Kontak"
+
+#: sidebar.php:32
+msgid "Right"
+msgstr "Kanan"
+
+#: sidebar-left.php:38 sidebar.php:38
+msgid "Example Widget"
+msgstr "Contoh Widget"
+
+#. Translators: 1. Label for Contact Page or Left sidebar area, 2. Opening of
+#. the link for widgets.php WordPress section, 3. Closing of the link for
+#. widgets.php WordPress section
+#. Translators: 1. Label for Contact Page or Right sidebar area, 2. Opening of
+#. the link for widgets.php WordPress section, 3. Closing of the link for
+#. widgets.php WordPress section
+#: sidebar-left.php:41 sidebar.php:41
+msgid "This is an example widget to show how the %s Sidebar looks by default. You can add custom widgets from the %swidgets screen%s in the admin. If custom widgets are added then this will be replaced by those widgets."
+msgstr "Ini adalah contoh widget untuk menampilkan bagaimana sidebar %s terlihat secara default. Anda dapat menambahkan widget kustom dari %slayar widget%s di admin. Jika widget kustom ditambahkan maka ini akan digantikan oleh widget tersebut."
+
+#: sidebar-left.php:32
+msgid "Left"
+msgstr "Kiri"
+
+#: sidebar-left.php:30 sidebar.php:30
+msgid "Contact Page"
+msgstr "Laman Kontak"
+
+#: searchform.php:23
+msgid "Search"
+msgstr "Cari"
+
+#: no-results.php:49
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Tampaknya kami tak bisa menemukan apa yang Anda inginkan. Mungkin pencarian bisa membantu."
+
+#: no-results.php:42
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maaf, tidak ada yang cocok dengan kata kunci pencarian Anda. Silakan coba lgi dengan kata kunci berbeda."
+
+#. Translators: %1$s: Link to WP admin new post page.
+#: no-results.php:28
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Siap menerbitkan pos pertamamu? <a href=\"%1$s\">Mulailah disini</a>."
+
+#: navigation.php:33 navigation.php:51
+msgid "Next &rarr;"
+msgstr "Selanjutnya &rarr;"
+
+#: navigation.php:32 navigation.php:50
+msgid "&larr; Previous"
+msgstr "&larr; Sebelumnya"
+
+#: inc/widgets/colormag-728x90-advertisement-widget.php:39
+msgid "Add your Advertisement 728x90 Images Here"
+msgstr "Tambahkan Gambar Iklan 728x90 Anda Disini"
+
+#: inc/widgets/colormag-125x125-advertisement-widget.php:28
+msgid "Add your 125x125 Advertisement here"
+msgstr "Tambahkan Iklan 125x125 Anda Disini"
+
+#: inc/widgets/colormag-125x125-advertisement-widget.php:29
+msgid "TG: 125x125 Advertisement"
+msgstr "TG: Iklan 125x125"
+
+#: inc/widgets/colormag-125x125-advertisement-widget.php:39
+msgid "Add your Advertisement 125x125 Images Here"
+msgstr "Tambahkan Gambar Iklan 125x125 Anda Disini"
+
+#: inc/widgets/colormag-728x90-advertisement-widget.php:28
+msgid "Add your 728x90 Advertisement here"
+msgstr "Tambahkan Iklan 728x90 Anda Disini"
+
+#: inc/widgets/colormag-728x90-advertisement-widget.php:29
+msgid "TG: 728x90 Advertisement"
+msgstr "TG: Iklan 728x90"
+
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:29
+msgid "TG: Featured Posts (Style 2)"
+msgstr "TG: Pos Andalan (Gaya 2)"
+
+#: inc/widgets/colormag-300x250-advertisement-widget.php:28
+msgid "Add your 300x250 Advertisement here"
+msgstr "Tambahkan Iklan 300x250 Anda Disini"
+
+#: inc/widgets/colormag-300x250-advertisement-widget.php:29
+msgid "TG: 300x250 Advertisement"
+msgstr "TG: Iklan 300x250"
+
+#: inc/widgets/colormag-300x250-advertisement-widget.php:39
+msgid "Add your Advertisement 300x250 Images Here"
+msgstr "Tambahkan Gambar Iklan 300x250 Anda Disini"
+
+#: inc/widgets/colormag-125x125-advertisement-widget.php:44
+#: inc/widgets/colormag-125x125-advertisement-widget.php:54
+#: inc/widgets/colormag-125x125-advertisement-widget.php:64
+#: inc/widgets/colormag-125x125-advertisement-widget.php:74
+#: inc/widgets/colormag-125x125-advertisement-widget.php:84
+#: inc/widgets/colormag-125x125-advertisement-widget.php:94
+#: inc/widgets/colormag-300x250-advertisement-widget.php:44
+#: inc/widgets/colormag-728x90-advertisement-widget.php:44
+msgid "Advertisement Image Link "
+msgstr "Link Gambar Iklan"
+
+#: inc/widgets/colormag-125x125-advertisement-widget.php:49
+#: inc/widgets/colormag-125x125-advertisement-widget.php:59
+#: inc/widgets/colormag-125x125-advertisement-widget.php:69
+#: inc/widgets/colormag-125x125-advertisement-widget.php:79
+#: inc/widgets/colormag-125x125-advertisement-widget.php:89
+#: inc/widgets/colormag-125x125-advertisement-widget.php:99
+#: inc/widgets/colormag-300x250-advertisement-widget.php:49
+#: inc/widgets/colormag-728x90-advertisement-widget.php:49
+msgid "Advertisement Image "
+msgstr "Gambar Iklan"
+
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:45
+#: inc/widgets/colormag-featured-posts-widget.php:45
+msgid "Description"
+msgstr "Deskripsi"
+
+#: inc/elementor/widgets/class-colormag-elementor-widget-base.php:74
+#: inc/widgets/colormag-125x125-advertisement-widget.php:34
+#: inc/widgets/colormag-300x250-advertisement-widget.php:34
+#: inc/widgets/colormag-728x90-advertisement-widget.php:34
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:40
+#: inc/widgets/colormag-featured-posts-widget.php:40
+msgid "Title:"
+msgstr "Judul:"
+
+#: inc/widgets/colormag-highlighted-posts-widget.php:28
+msgid "Display latest posts or posts of specific category. Suitable for the Area Beside Slider Sidebar."
+msgstr "Tampilkan pos terbaru atau pos dengan kategori tertentu. Cocok untuk Area Disamping Slider Sidebar."
+
+#: inc/widgets/colormag-highlighted-posts-widget.php:29
+msgid "TG: Highlighted Posts"
+msgstr "TG: Pos yang Disorot"
+
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:28
+#: inc/widgets/colormag-featured-posts-widget.php:28
+msgid "Display latest posts or posts of specific category."
+msgstr "Tampilkan pos terbaru atau pos dengan kategori tertentu."
+
+#: inc/widgets/colormag-featured-posts-widget.php:29
+msgid "TG: Featured Posts (Style 1)"
+msgstr "TG: Pos Andalan (Gaya 1)"
+
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:34
+#: inc/widgets/colormag-featured-posts-widget.php:34
+msgid "Layout will be as below:"
+msgstr "Tata Letak akan seperti dibawah:"
+
+#: inc/widgets/widgets.php:221
+msgid "Footer Sidebar Four"
+msgstr "Sidebar Footer Empat"
+
+#: inc/widgets/widgets.php:223
+msgid "Shows widgets at footer sidebar four."
+msgstr "Menampilkan widget di sidebar footer empat"
+
+#: inc/widgets/colormag-featured-posts-slider-widget.php:28
+msgid "Display latest posts or posts of specific category, which will be used as the slider."
+msgstr "Tampilkan pos terbaru atau pos dengan kategori tertentu, akan digunakan sebagai slider."
+
+#: inc/widgets/colormag-featured-posts-slider-widget.php:29
+msgid "TG: Featured Category Slider"
+msgstr "TG: Slider Kategori Andalan"
+
+#: inc/elementor/widgets/class-colormag-elementor-widget-base.php:170
+#: inc/widgets/colormag-featured-posts-slider-widget.php:35
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:50
+#: inc/widgets/colormag-featured-posts-widget.php:50
+#: inc/widgets/colormag-highlighted-posts-widget.php:34
+msgid "Number of posts to display:"
+msgstr "Jumlah pos yang ditampilkan:"
+
+#: inc/widgets/colormag-featured-posts-slider-widget.php:42
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:57
+#: inc/widgets/colormag-featured-posts-widget.php:57
+#: inc/widgets/colormag-highlighted-posts-widget.php:41
+msgid "Show latest Posts"
+msgstr "Tampilkan Post terbaru"
+
+#: inc/widgets/colormag-featured-posts-slider-widget.php:43
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:58
+#: inc/widgets/colormag-featured-posts-widget.php:58
+#: inc/widgets/colormag-highlighted-posts-widget.php:42
+msgid "Show posts from a category"
+msgstr "Tampilkan pos dari kategori"
+
+#: inc/widgets/colormag-featured-posts-slider-widget.php:49
+#: inc/widgets/colormag-featured-posts-vertical-widget.php:64
+#: inc/widgets/colormag-featured-posts-widget.php:64
+#: inc/widgets/colormag-highlighted-posts-widget.php:48
+msgid "Select category"
+msgstr "Pilih kategori"
+
+#: inc/widgets/widgets.php:158
+msgid "Shows widgets on Error 404 page."
+msgstr "Menampilkan widget pada laman Error 404."
+
+#: inc/widgets/widgets.php:169
+msgid "Advertisement Above The Footer"
+msgstr "Iklan diatas Footer"
+
+#: inc/widgets/widgets.php:182
+msgid "Footer Sidebar One"
+msgstr "Sidebar Footer Satu"
+
+#: inc/widgets/widgets.php:184
+msgid "Shows widgets at footer sidebar one."
+msgstr "Menampilkan widget di Ssidebar footer satu"
+
+#: inc/widgets/widgets.php:195
+msgid "Footer Sidebar Two"
+msgstr "Sidebar Footer Dua"
+
+#: inc/widgets/widgets.php:197
+msgid "Shows widgets at footer sidebar two."
+msgstr "Menampilkan widget di sidebar footer dua"
+
+#: inc/widgets/widgets.php:208
+msgid "Footer Sidebar Three"
+msgstr "Sidebar Footer Tiga"
+
+#: inc/widgets/widgets.php:210
+msgid "Shows widgets at footer sidebar three."
+msgstr "Menampilkan widget di sidebar footer tiga"
+
+#: inc/widgets/widgets.php:41
+msgid "Shows widgets at Left side."
+msgstr "Menampilkan widget di sisi Kiri."
+
+#: inc/widgets/widgets.php:52
+msgid "Header Sidebar"
+msgstr "Sidebar Header"
+
+#: inc/widgets/widgets.php:54
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Menampilkan widget di bagian header tepat diatas menu navigasi utama."
+
+#: inc/widgets/widgets.php:65
+msgid "Front Page: Slider Area"
+msgstr "Laman depan: Area Slider"
+
+#: inc/widgets/widgets.php:67
+msgid "Show widget just below menu. Suitable for TG: Featured Category Slider."
+msgstr "Tampilkan widget tepat dibawah menu. Cocok untuk TG: Slider Kategori Andalan."
+
+#: inc/widgets/widgets.php:78
+msgid "Front Page: Area beside slider"
+msgstr "Laman Depan: Area disamping slider"
+
+#: inc/widgets/widgets.php:80
+msgid "Show widget beside the slider. Suitable for TG: Highlighted Posts."
+msgstr "Tampilkan widget disamping slider. Cocok untuk TG: Pos yang Disorot."
+
+#: inc/widgets/widgets.php:91
+msgid "Front Page: Content Top Section"
+msgstr "Laman Depan: Bagian Atas Konten"
+
+#: inc/widgets/widgets.php:93
+msgid "Content Top Section"
+msgstr "Bagian Atas Konten"
+
+#: inc/widgets/widgets.php:104
+msgid "Front Page: Content Middle Left Section"
+msgstr "Laman Depan: Bagian Kiri Tengah Konten"
+
+#: inc/widgets/widgets.php:106
+msgid "Content Middle Left Section"
+msgstr "Bagian Kiri Tengah Konten"
+
+#: inc/widgets/widgets.php:117
+msgid "Front Page: Content Middle Right Section"
+msgstr "Laman Depan: Bagian Kanan Tengah Konten"
+
+#: inc/widgets/widgets.php:119
+msgid "Content Middle Right Section"
+msgstr "Bagian Kanan Tengah Konten"
+
+#: inc/widgets/widgets.php:130
+msgid "Front Page: Content Bottom Section"
+msgstr "Laman Depan: Bagian Bawah Konten"
+
+#: inc/widgets/widgets.php:143
+msgid "Contact Page Sidebar"
+msgstr "Sidebar Laman Kontak"
+
+#: inc/widgets/widgets.php:145
+msgid "Shows widgets on Contact Page Template."
+msgstr "Menampilkan widget pada Template Laman Kontak."
+
+#: inc/widgets/widgets.php:156
+msgid "Error 404 Page Sidebar"
+msgstr "Sidebar Laman Error 404"
+
+#. Translators: %1$s: Theme name, %2$s: ThemeGrill site link
+#: inc/hooks/footer.php:247
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s oleh %2$s."
+
+#. Translators: %1$s: Current year, %2$s: Site link
+#: inc/hooks/footer.php:247
+msgid "Copyright &copy; %1$s %2$s. All rights reserved."
+msgstr "Hak Cipta &copy; %1$s %2$s. Keseluruhan Hak Cipta."
+
+#. Translators: %s: WordPress link
+#: inc/hooks/footer.php:247
+msgid "Powered by %s."
+msgstr "Dipersembahkan oleh %s."
+
+#: inc/colormag-wp-query.php:40
+msgid "Latest:"
+msgstr "Terbaru:"
+
+#: inc/colormag-wp-query.php:93
+#: inc/customizer/class-colormag-customizer-partials.php:100
+msgid "View a random post"
+msgstr "Perlihatkan pos acak"
+
+#: inc/related-posts.php:23
+msgid "You May Also Like"
+msgstr "Anda Juga Mungkin Suka"
+
+#: inc/widgets/widgets.php:28
+msgid "Shows widgets at Right side."
+msgstr "Menampilkan widget di sisi Kanan."
+
+#: inc/hooks/footer.php:243
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/template-tags.php:611
+msgid "Reply"
+msgstr "Balas"
+
+#: inc/template-tags.php:600
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang dimoderasi."
+
+#. Translators: 1. Comment date, 2. Comment time
+#: inc/template-tags.php:584
+msgid "%1$s at %2$s"
+msgstr "%1$s pada %2$s"
+
+#: inc/template-tags.php:577
+msgid "Post author"
+msgstr "Penulis Pos"
+
+#: inc/template-tags.php:558
+msgid "(Edit)"
+msgstr "(Sunting)"
+
+#: inc/template-tags.php:556
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: navigation.php:59
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: navigation.php:58
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: content-page.php:66 inc/template-tags.php:95
+msgid "Edit"
+msgstr "Sunting"
+
+#: inc/template-tags.php:87
+msgid ", "
+msgstr ", "
+
+#. Translators: 1. Post link, 2. Post time, 3. Post date
+#: inc/template-tags.php:48 inc/widgets/abstract-colormag-widget.php:871
+msgid "<span class=\"posted-on\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><i class=\"fa fa-calendar-o\"></i> %3$s</a></span>"
+msgstr "<span class=\"posted-on\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><i class=\"fa fa-calendar-o\"></i> %3$s</a></span>"
+
+#: inc/template-tags.php:72
+msgid "<i class=\"fa fa-comment\"></i> 0 Comments"
+msgstr "<i class=\"fa fa-comment\"></i> 0 Komentar"
+
+#: inc/template-tags.php:73
+msgid "<i class=\"fa fa-comment\"></i> 1 Comment"
+msgstr "<i class=\"fa fa-comment\"></i> 1 Komentar"
+
+#: inc/template-tags.php:74
+msgid "<i class=\"fa fa-comments\"></i> % Comments"
+msgstr "<i class=\"fa fa-comments\"></i> % Komentar"
+
+#: inc/customizer/class-colormag-customizer-upsell-button.php:40
+msgid "View Pro Version"
+msgstr "Lihat Versi PRO"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:207
+msgid "Check to open in new tab"
+msgstr "Centang untuk membuka di tab baru"
+
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:85
+msgid "Related Posts"
+msgstr "Pos Terkait"
+
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:97
+msgid "Check to activate the related posts"
+msgstr "Centang untuk aktifkan pos terkait"
+
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:112
+msgid "Related Posts Must Be Shown As:"
+msgstr "Pos Terkait Harus Muncul Seperti:"
+
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:115
+msgid "Related Posts By Categories"
+msgstr "Pos Terkait Berdasarkan Kategori"
+
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:116
+msgid "Related Posts By Tags"
+msgstr "Pos Terkait Berdasarkan Tag"
+
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:67
+msgid "Check to enable the lightbox for the featured images in single post"
+msgstr "Centang untuk menggunakan lightbox untuk gambar andalan di pos tunggal"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:172
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:177
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:167
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:162
+msgid "Google-Plus"
+msgstr "Google-Plus"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:152
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:157
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/options/additional/class-colormag-customize-social-options.php:56
+msgid "Check to activate social links area"
+msgstr "Centang untuk mengaktifkan area link sosial"
+
+#: inc/customizer/options/global/class-colormag-customize-layout-options.php:105
+msgid "Default layout for pages only"
+msgstr "Tata letak default untuk laman saja"
+
+#: inc/customizer/options/global/class-colormag-customize-layout-options.php:144
+msgid "Default layout for single posts only"
+msgstr "Tata letak default untuk pos tunggal saja"
+
+#: inc/customizer/options/header/class-colormag-customize-header-media-options.php:45
+msgid "Header image display position"
+msgstr "Posisi tampilan gambar header"
+
+#: inc/customizer/options/header/class-colormag-customize-header-media-options.php:48
+msgid "Display the Header image just above the site title/text."
+msgstr "Tampilkan gambar header tepat diatas judul/teks situs."
+
+#: inc/customizer/options/header/class-colormag-customize-header-media-options.php:49
+msgid "Default: Display the Header image between site title/text and the main/primary menu."
+msgstr "Default: Tampilkan gambar Header diantara judul/teks situs dan menu utama."
+
+#: inc/customizer/options/header/class-colormag-customize-header-media-options.php:50
+msgid "Display the Header image below main/primary menu."
+msgstr "Tampilkan gambar Header dibawah menu utama."
+
+#: inc/customizer/options/header/class-colormag-customize-header-media-options.php:81
+msgid "Check to make header image link back to home page"
+msgstr "Centang untuk membuat link gambar Header ke laman beranda"
+
+#: inc/customizer/options/front-page/class-colormag-customize-front-page-options.php:51
+msgid "Check to hide blog posts/static page on front page"
+msgstr "Centang untuk menyembunyikan pos blog/laman statis pada laman depan"
+
+#: inc/customizer/class-colormag-customizer-register-sections-panels.php:156
+#: inc/customizer/options/global/class-colormag-customize-layout-options.php:41
+msgid "Site Layout"
+msgstr "Tata Letak Situs"
+
+#: inc/customizer/options/global/class-colormag-customize-layout-options.php:55
+msgid "Boxed Layout"
+msgstr "Tata Letak Kotak"
+
+#: inc/customizer/options/global/class-colormag-customize-layout-options.php:56
+msgid "Wide Layout"
+msgstr "Tata Letak Melebar"
+
+#: inc/customizer/options/global/class-colormag-customize-layout-options.php:66
+msgid "Default layout"
+msgstr "Tata Letak Default"
+
+#: inc/customizer/options/header/class-colormag-customize-primary-menu-options.php:76
+msgid "Search Icon"
+msgstr "Ikon Pencarian"
+
+#: inc/customizer/options/header/class-colormag-customize-primary-menu-options.php:88
+msgid "Check to display the Search Icon in the primary menu"
+msgstr "Centang untuk menampilkan Ikon Pencarian di menu utama"
+
+#: inc/customizer/options/header/class-colormag-customize-primary-menu-options.php:101
+msgid "Random Post"
+msgstr "Pos Acak"
+
+#: inc/customizer/options/header/class-colormag-customize-primary-menu-options.php:113
+msgid "Check to display the Random Post Icon in the primary menu"
+msgstr "Centang untuk menampilkan ikon Pos Acak di menu utama"
+
+#: inc/customizer/options/header/class-colormag-customize-site-identity-options.php:92
+msgid "Choose the option that you want"
+msgstr "Tentukan opsi yang Anda inginkan"
+
+#: inc/customizer/options/header/class-colormag-customize-site-identity-options.php:95
+msgid "Header Logo Only"
+msgstr "Hanya Logo Header"
+
+#: inc/customizer/options/header/class-colormag-customize-site-identity-options.php:96
+msgid "Header Text Only"
+msgstr "Hanya Teks Header"
+
+#: inc/customizer/options/header/class-colormag-customize-site-identity-options.php:97
+msgid "Show Both"
+msgstr "Tampilkan Keduanya"
+
+#: inc/customizer/options/content/class-colormag-customize-single-post-options.php:55
+#: inc/customizer/options/header/class-colormag-customize-site-identity-options.php:98
+msgid "Disable"
+msgstr "Tiadakan"
+
+#: inc/customizer/options/header/class-colormag-customize-header-top-bar-options.php:108
+msgid "Breaking News"
+msgstr "Berita Baru"
+
+#: inc/customizer/options/header/class-colormag-customize-header-top-bar-options.php:120
+msgid "Check to enable the breaking news section"
+msgstr "Centang untuk menggunakan bagian berita baru"
+
+#: inc/customizer/options/header/class-colormag-customize-header-top-bar-options.php:47
+msgid "Show Date"
+msgstr "Tampilkan Tanggal"
+
+#: inc/customizer/options/header/class-colormag-customize-header-top-bar-options.php:59
+msgid "Check to show the date in header"
+msgstr "Centang untuk menampilkan tanggal di header"
+
+#: inc/customizer/options/header/class-colormag-customize-primary-menu-options.php:47
+msgid "Show Home Icon"
+msgstr "Tampilkan ikon Beranda"
+
+#: inc/customizer/options/header/class-colormag-customize-sticky-header-options.php:44
+msgid "Sticky Menu"
+msgstr "Menu Lengket"
+
+#: inc/admin/class-colormag-dashboard.php:105
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: inc/widgets/widgets.php:39
+msgid "Left Sidebar"
+msgstr "Sidebar Kiri"
+
+#: inc/widgets/widgets.php:26
+msgid "Right Sidebar"
+msgstr "Sidebar Kanan"
+
+#: inc/meta-boxes/class-colormag-meta-box-page-settings.php:77
+msgid "Select Layout"
+msgstr "Pilih Tata Letak"
+
+#: content.php:64
+msgid "Read more"
+msgstr "Baca Selengkapnya"
+
+#: inc/colormag-setup.php:39
+#: inc/customizer/class-colormag-customizer-register-sections-panels.php:201
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: content-page.php:56 content-single.php:74
+msgid "Pages:"
+msgstr "Laman:"
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: comments.php:58 comments.php:78
+msgid "Newer Comments &rarr;"
+msgstr "Komentar Terbaru &rarr;"
+
+#: comments.php:57 comments.php:77
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentar Terdahulu"
+
+#: comments.php:55 comments.php:75
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+#. Translators: %1$s: Comment count, %2$s: Post title
+#: comments.php:45
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentar pada &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentar pada &ldquo;%2$s&rdquo;"
+
+#: inc/hooks/content.php:98
+msgid "Archives"
+msgstr "Arsip"
+
+#: inc/hooks/content.php:92
+msgid "Links"
+msgstr "Link"
+
+#: inc/hooks/content.php:89
+msgid "Quotes"
+msgstr "Kutipan"
+
+#: inc/hooks/content.php:86
+msgid "Videos"
+msgstr "Video"
+
+#: inc/hooks/content.php:83
+msgid "Images"
+msgstr "Gambar"
+
+#: inc/hooks/content.php:80
+msgid "Asides"
+msgstr "Asides"
+
+#. Translators: %s: Year archive
+#: inc/hooks/content.php:75
+msgid "Year: %s"
+msgstr "Tahun: %s"
+
+#. Translators: %s: Month archive
+#: inc/hooks/content.php:68
+msgid "Month: %s"
+msgstr "Bulan: %s"
+
+#. Translators: %s: Day archive
+#: inc/hooks/content.php:61
+msgid "Day: %s"
+msgstr "Hari: %s"
+
+#. Translators: %s: Author name
+#: inc/hooks/content.php:47
+msgid "Author: %s"
+msgstr "Penulis: %s"
+
+#: 404.php:33
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr "Sepertinya tidak ada yang ditemukan disini. Cobalah pencarian dibawah."
+
+#: 404.php:30
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Laman tersebut tak ditemukan."
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://themegrill.com/themes/colormag/"
+msgstr "http://themegrill.com/themes/colormag/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://themegrill.com"
+msgstr "http://themegrill.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "ThemeGrill"
+msgstr "ThemeGrill"

@@ -1,0 +1,114 @@
+/* Komponen Sidebar Right */
+#sidebar-right {
+    float: right;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.sidebar-right-wrap {
+    position: sticky;
+    top: 100px;
+}
+
+.before-widget {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Widget Trending */
+.wpp-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wpp-list li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.wpp-list li:last-child {
+    border: none;
+}
+
+.wpp-post-title {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+    display: block;
+}
+
+/* Widget Topik Populer */
+.tagcloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag-cloud-link {
+    background: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #666;
+    text-decoration: none;
+    font-size: 13px !important;
+    transition: all 0.3s ease;
+}
+
+.tag-cloud-link:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+/* Recent Post Widget */
+.recent-post-widget {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.recent-post-widget:last-child {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recent-post-widget img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.recent-post-widget a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.recent-post-widget .waktu {
+    color: #666;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    #sidebar-right {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .sidebar-right-wrap {
+        position: static;
+    }
+}
